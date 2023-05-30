@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    margin-top: 70px;
+   
+    padding-left: 50px;
+    padding-right: 50px;
+   background-color: rgb(235, 238, 243);
+
+}
+.columnLeft{
+    width: 50%;
+    
+}
+.columnRightContainer{
+    position: absolute;
+}
+
+
+.columnRight{
+    width: 50%;
+  
+    border: 1px solid #000; 
+}
+.columnRight h3{
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+
+.columnRight fee-button{
+    display: grid;
+    row-gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.columnLeft h1{
+    font-family: "Arvo",sans-serif;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #333
+}
+.columnLeft img{
+   
+}
+.badge{
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    background-color: red;
+}

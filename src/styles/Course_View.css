@@ -1,0 +1,15 @@
+.course{
+    display: flex;
+    align-items: center;
+    margin: 60;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.courseviewMain{
+    /* background-color: blue; */
+   
+  
+    /* width: 90%; */
+    margin: auto;
+    padding: 75px;
+}

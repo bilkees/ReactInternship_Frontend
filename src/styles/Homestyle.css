@@ -1,0 +1,78 @@
+
+.overlaydesign{
+    background-image: url("https://ictkerala.org/GRA_Home-Header-Background.77f105b5edb5afc6.png");
+    width: 100%;
+    height: 50rem;
+
+    margin-top: 65px;
+    
+   
+  
+}
+.section-two{
+    /* background-color: lightblue; */
+}
+.section-two-body{
+    background-color: lightblue;
+    height: 60rem;
+    width: 100%;
+}
+/* .Home-Builder-Carrier-container{
+    margin-left: 12%;
+    margin-right: 15%;
+    padding-top: 5%;
+} */
+.section-one-right img{
+    width: 565px;
+    height: 518px;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    margin-left: 8%;
+    margin-right:8% ;
+}
+.section-one-right{
+    /* width: 400px; */
+}
+.section-one-left{
+    /* width: 400px; */
+}
+
+
+
+
+.home{
+    height: 90vh;
+    padding-top: 100px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.para{
+    width: 550px;
+    height: 100px;
+    line-height: 40px;
+}
+button{
+    background-color: red;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 150px;
+    color: white;
+}
+

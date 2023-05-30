@@ -1,0 +1,36 @@
+.comp_img{
+    /* background-image: url("../images/ph"); */
+}
+.comp_home{
+    /* display: flex;
+    width: 500px;
+    justify-content:center; */
+  
+    
+    display: flex;
+    align-items: center;
+    margin: 60;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+.comp_img{
+   width: 618;
+   height: 300;
+   
+}
+.comp_para{
+    padding-left: 150px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+#imgHeading{
+    align-items: center;
+}
+#team_header{
+    color: #fff;
+    text-align: center;
+}
+.teamHeaderclass{
+    background-color: black;
+}

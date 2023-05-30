@@ -1,0 +1,102 @@
+.card-container-right {
+    display: flex;
+    flex-wrap: wrap;
+   
+    /* flex-direction: column; */
+    width: 30%;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* background-color: rgb(36, 179, 179); */
+    background-color: rgb(138 174 235);
+  }
+
+  .first-section{
+    /* background-color: rgb(237, 243, 245); */
+    width: 100%;
+    display: flex;
+    background-color: black;
+  }
+  .card-table{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  .main{
+   
+  }
+  .card-container-left{
+    display: flex;
+    /* background-color: rgb(26, 16, 1); */
+    /* width: 50%; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-container-left .minibox{
+    /* background-color: aqua; */
+   
+  
+
+  }
+  .minibox{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover; */
+
+    /* display: block;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px; */
+  }
+  .card-container-left .miniboxParent{
+    background-color: rgb(210, 210, 245);
+    display: flex
+    /* flex: 0 0 auto; */
+    /* width: 33.33333333%; */
+    
+    
+
+  }
+  /* .miniboxParent{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background: rgba(31,105,161,.1);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,.2);
+    border-right-color: #ffffff1a;
+    border-bottom-color: #ffffff1a;
+    box-shadow: 0 20px 30px #0000001a;
+    padding: 15px;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 50px;
+  } */
+  .col{
+    background-color: rgb(94, 83, 83);
+    cursor: pointer;
+    height: 80%;
+  
+  }
+
+  .col img{
+    transition: 0.5s ease-in-out;
+  }
+  .col img:hover{
+    transform: scale(1.1) rotate(.5deg);
+  }
+  .second-section p{
+    background-color: rgb(154, 174, 192);
+  }
